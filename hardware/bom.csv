@@ -1,0 +1,17 @@
+Component,Model_or_Specification,Quantity,Role,Notes
+ESP32-C3,ESP32-C3 Super Mini,1,Main console controller,powered by the ESP32-C3 RISC-V microcontroller
+ESP8266,Lolin NodeMCU ESP8266 V3 WiFi Module,1,Input controller,built-in Micro-USB, CH340 USB-TTL, and full I/O support
+TFT display,ST7735R 1.8 inch TFT LCD Module,1,Graphical output,features 128×160 colour pixels and ST7735R TFT driver can display full 18-bit colour (262,144 shades!)
+Push buttons,12x12x7.3mm Tactile Push Button Switch,6,User input,4x button for movement and navigation and 2x select/action buttons
+Buzzer,3.3V Small Passive Piezo Buzzer,1,Audio feedback,ideal or simplicity and haptics while gaming/ navigation
+Capacitors, Electrolytic/Ceramic Capacitor,4,Power stabilization,2x10 micro farads 1x 100 micro farad and 1x 470 micro farads
+Resistors, Ceramic resistors,7,Current limitation, 5x100ohm 1x330ohm 1x1000ohm
+Switch, Slide Switch,1,Main Power Switch, easy application and reliable for main power delivery
+Battery, 18650 2200mAh 3.7v,1,Main Power Source, Cheap and easy to use and reliable battery backup
+TP4056, TP4056 1A charger IC and DW01 battery protection IC,1,Charging Module,provide fast and efficient charging, so your Li-ion cells are always ready for action
+LEDs, 5mm round LED,5,Aesthetic Lighting, Can be used dynamically for cosmetic/aesthetic RGB looks 
+AMS1117, AMS1117 3.3v,1,Voltage Stabilizer, voltage drop of 1.2v from battery rating can be problematic when battery is low used for this prototype due to easy availibility 
+Motor, 3-5v rated vibratory motor 20mmx10mm,1,Vibratory Response,gives a premuim finish and good haptics while gaming/navigating
+Transistor, 2N2222 NPN bipolar junction transistor (BJT),1,Electronic Motor Switch, uwed in easy motor driving circuits and can be controlled via signal from esp8266
+Diode, 1N4007,1,Fly-Back Diode, prevents backward current while driving the motor
+
