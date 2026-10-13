@@ -1,4 +1,5 @@
 # ESP Retro Console 🎮
+![ESP Retro Console](media/working_image.jpeg)
 
 A DIY retro gaming console built using an ESP32-C3 and an ESP8266, combining embedded C++, TFT graphics, physical controls, and serial communication between two microcontrollers.
 
